@@ -11,17 +11,19 @@ switch ($opcion) {
     case "Tirar 1 dado":
         $dado->throw();
         echo "Valor de la tirada: " . $dado->shapeName(). "\n";
+        $tiradas +=1;
         break;
 
     case "Tirar los 5 dados":
         for ($i = 0; $i < 5; $i++) {
             $dado->throw(); // Usar la misma instancia para todos los dados
+            $tiradas +=1;
             echo "Dado $i: " . $dado->shapeName() . "\n";
         }
         break;
 
     case "Salir del juego":
-        echo "El recuento total de tiradas es: " . $this -> getTotalThrows();
+        echo "El recuento total de tiradas es: " . $tiradas;
         echo "<br>";
         echo "Saliendo del juego. ¡Hasta luego!\n";
         break;
