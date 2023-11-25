@@ -23,5 +23,5 @@
     public function getDirector(){
         return $this -> director;
     }
-
+}
 ?>
