@@ -1,7 +1,7 @@
 <?php
 class PokerDice{
     // Atributos
-    public $dado = array("As", "K", "Q", "J", 7, 8);
+    protected $dado = array("As", "K", "Q", "J", 7, 8);
     public $recuentoTiradas = 0;
     public static $tiradaActual;
 
