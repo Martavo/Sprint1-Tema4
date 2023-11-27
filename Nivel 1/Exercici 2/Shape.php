@@ -18,10 +18,6 @@
             return $this ->alto;
         }
 
-        //Metodo base de calculo area
-        public function calculoArea(){
-        }
-
     }
 
 
