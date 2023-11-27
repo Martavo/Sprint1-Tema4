@@ -3,7 +3,7 @@ class PokerDice{
     // Atributos
     protected $dado = array("As", "K", "Q", "J", 7, 8);
     public $recuentoTiradas = 0;
-    public static $tiradaActual;
+    public static $tiradaActual; 
 
 
 
