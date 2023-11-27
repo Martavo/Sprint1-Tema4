@@ -22,7 +22,7 @@
         public function calculoArea(){
         }
 
-
-
     }
+
+
 ?>

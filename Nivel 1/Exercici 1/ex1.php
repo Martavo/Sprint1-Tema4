@@ -30,12 +30,17 @@
         //Metodos
         public function calcularPagoImpuestos(){
             if ($this -> Sueldo >= 6000){
-                return "Tiene que pagar impuestos";
+                echo "Tiene que pagar impuestos";
             }else{
-                return "No tiene que pagar impuestos";
+                echo "No tiene que pagar impuestos";
             }
         }
 
     }
+
+    $trabajador1 = new Employee("Alvaro", "7000");
+
+    $trabajador1->calcularPagoImpuestos();
+
 
 ?>
