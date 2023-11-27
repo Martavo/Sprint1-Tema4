@@ -15,17 +15,17 @@
 
         //Getters y setters
         public function setNombre(){
-            return $this -> nombre;
+            return $this $nombre -> nombre;
         }
         public function setPoblacion(){
-            return $this -> poblacion;
+            return $this $poblacion -> poblacion;
         }
 
         public function getNombre(){
-            return $this -> nombre;
+            return $this $nombre -> nombre;
         }
         public function getPoblacion(){
-            return $this -> poblacion;
+            return $this $poblacion -> poblacion;
         }
 
         //Metodos de la clase
